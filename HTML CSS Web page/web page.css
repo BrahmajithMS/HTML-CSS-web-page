@@ -1,0 +1,82 @@
+.wrapper{
+	background: url(https://uploads.ioh.tw/uploads/production/asset/article/260/head/c3ead016-7b6b-404c-b6c7-26fa8a38794d.jpg) no-repeat ;	
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+.logo{
+	width: 155px;
+	height: 50px;
+	padding: 20px 70px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 50px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 20px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: serif;
+	transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50% );
+	font-family: serif; 
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 65px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 55px;
+	font-weight: bold;
+	width: 850px;
+	margin-top: 10px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	border: 1px solid #cc0000;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+.buttons .btn{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
